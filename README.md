@@ -20,7 +20,7 @@ Xiao, D., & Li, W. (2000). Limit cycles for the competitive three dimensional
 Lotka–Volterra system. Journal of Differential Equations, 164 (1), 1–15
 
 
-The folder "TLB comparison" cosntains teh following: 
+The folder "TLB comparison" cosntains the following: 
 The main (Matlab) code file 'TLB_comparison_main.m' loads data from Ignacio et al 2022 (file 'Ignacio2022.mat') and computes matrices of TLB's from Memoli 2011 and GWtau's between trajectories using 3 functions: 'my_geo.m' (needed for TLB) and 'vec_geo_dist.m' and 'wass_sorted.m' (needed for GWtau) 
 References:
 Memoli, F. (2011). Gromov-Wasserstein distances and the metric approach
