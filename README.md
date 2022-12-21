@@ -20,8 +20,8 @@ Xiao, D., & Li, W. (2000). Limit cycles for the competitive three dimensional
 Lotka–Volterra system. Journal of Differential Equations, 164 (1), 1–15
 
 
-The folder "TLB comparison" cosntains the following: 
-The main (Matlab) code file 'TLB_comparison_main.m' loads data from Ignacio et al 2022 (file 'Ignacio2022.mat') and computes matrices of TLB's from Memoli 2011 and GWtau's between trajectories using 3 functions: 'my_geo.m' (needed for TLB) and 'vec_geo_dist.m' and 'wass_sorted.m' (needed for GWtau) 
+The folder "TLB comparison" contains the following: 
+The main (Matlab) code file 'TLB_GW_GWtau_comparison_main.m' loads data from Ignacio et al. 2022 (file 'Ignacio2022.mat') and GW matrix (file 'gw.mat') computed in Python (code to compute it is the file 'compute_gw.py' that uses data file 'WOBBLE.txt'). The code computes matrices of TLB's from Memoli 2011 and GWtau's between trajectories using 3 functions: 'my_geo.m' (needed for TLB) and 'vec_geo_dist.m' and 'wass_sorted.m' (needed for GWtau). The code also plots matrices of TLB, GW, and GWtau.
 References:
 Memoli, F. (2011). Gromov-Wasserstein distances and the metric approach
 to object matching. Found. Comput. Math., 11 (4), 417–487.
