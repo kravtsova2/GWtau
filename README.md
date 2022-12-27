@@ -1,3 +1,5 @@
+This is the set of codes serving as Supplementary Information for "Scalable Gromov-Wasserstein based comparison of biological time series" by Natalia Kravtsova, Reginald L. McGee II, and Adriana T. Dawes (submitted). Detailed description for each folder is given below.  
+
 The folder "GWtau_tutorial" contains the following:
 The main (Matlab) code file 'gwtau_tutorial_main.m' loads the trajectory data from Ignacio et al. 2022 (file 'Ignacio2022.mat') and computes matrix of GWtau distances between the trajectories using two functions: 'vec_geo_dist.m' and 'wass_sorted.m'.
 Reference: 
