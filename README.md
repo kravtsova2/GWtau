@@ -15,11 +15,15 @@ Vayer, T., Chapel, L., Flamary, R., Tavenard, R., Courty, N. (2020). Fused Gromo
 212.
 
 
-The folder "Embedding with GWtau" constains the following:
+The folder "Embedding with GWtau" contains the following:
 The main (R) code 'Lotka_Volterra.R' loads distance matrices corresponding to simulated data from the model of Xiao and Li 2000 ('LVGW.dat','LVDT.dat', and 'LVE.dat' for GWtau, Dynamic Time Warping, and Euclidean dsitances, respectively) and computes and plots MDS embedding (choose metric or non-metric option by uncommenting the lines). Cluster tree can be also constructed and plotted, as well as 3d plot of representative trajectory ('Lotka1.dat','Lotka2.dat',and 'Lotka3.dat') for each of the 3 classes discussed in the paper (please run selected lines to see plots of interest). 
 Reference:
 Xiao, D., & Li, W. (2000). Limit cycles for the competitive three dimensional
 Lotka–Volterra system. Journal of Differential Equations, 164 (1), 1–15
+
+
+The folder "1-Nearest Neighbor on UCR archive"contains the Matlab code (with all needed functions inside) to reproduce the results of Table 1 of the paper, i.e. the 1-Nearest Neighbor classification of time series from UCR Time Series Classification Archive (accessed at: https://www.cs.ucr.edu/~eamonn/time_series_data_2018/).
+Reference: Hoang Anh Dau, Eamonn Keogh, Kaveh Kamgar, Chin-Chia Michael Yeh, Yan Zhu, Shaghayegh Gharghabi , Chotirat Ann Ratanamahatana, Yanping Chen, Bing Hu, Nurjahan Begum, Anthony Bagnall , Abdullah Mueen, Gustavo Batista, & Hexagon-ML (2019). The UCR Time Series Classification Archive. URL https://www.cs.ucr.edu/~eamonn/time_series_data_2018/
 
 
 The folder "TLB comparison" contains the following: 
