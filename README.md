@@ -5,7 +5,7 @@ The main (Matlab) code file 'gwtau_tutorial_main.m' loads the trajectory data fr
 Reference: 
 Ignacio, D.P., Kravtsova, N., Henry, J., Palomares, R.H., Dawes, A.T. (2022).
 Dynein localization and pronuclear movement in the C. elegans zygote.
-Cytoskeleton 79(12): 133-143
+Cytoskeleton 79(12), 133-143
 
 
 The folder "FGW barycenters" constains the following:
