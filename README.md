@@ -5,10 +5,10 @@ The main (Matlab) code file 'gwtau_tutorial_main.m' loads the trajectory data fr
 Reference: 
 Ignacio, D.P., Kravtsova, N., Henry, J., Palomares, R.H., Dawes, A.T. (2022).
 Dynein localization and pronuclear movement in the C. elegans zygote.
-Cytoskeleton
+Cytoskeleton 79(12): 133-143
 
 
-The folder "FGW barycenters" constains the follwing:
+The folder "FGW barycenters" constains the following:
 The main (Python) code file 'compute_FGW_bary.py' loads the trajectory data from Ignacio et al. 2022 (files 'WT.txt','GPB1.txt', and 'LET99.txt' for three groups of trajectories, respectively) and computes Fused Gromov-Wassserstein barycenter from Vayer et al. 2020 for a given group of trajectories
 Reference:
 Vayer, T., Chapel, L., Flamary, R., Tavenard, R., Courty, N. (2020). Fused Gromov-Wasserstein distance for structured objects. Algorithms, 13 (9),
